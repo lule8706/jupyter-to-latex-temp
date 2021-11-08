@@ -2,6 +2,24 @@
 
 Clone this template and use the directory as the working directory for Jupyter notebooks which you would like to convert to LaTeX documents. This is only tested for Jupyter Lab and appears to result in all the figures being added at the end when converting to PDF rather than where they are in the notebook.
 
+## Downloading and using template
+
+1. Run the following commands in your command line:
+
+```
+cd desired/path/to/template
+git clone https://github.com/lule8706/jupyter-to-latex-temp.git
+```
+2. Make a copy of the folder containing the cloned repo and place it in your desired directory.
+3. Rename your copy to whatever you want.
+4. Run the following command in your command line to delete the existing git setup:
+
+```
+cd path/to/copy
+cd rm -rf .git
+```
+5. Set up your own version control if you want.
+
 ## Converting notebooks to LaTeX
 
 1. Edit the file thmsInNb_article.tplx to set your title, author, and date.
