@@ -16,9 +16,9 @@ c.LatexExporter.template_file = "latex_tmpl/thmsInNb_article.tplx"
 exporter = LatexExporter(config=c)
 exporter.register_preprocessor(TagRemovePreprocessor(config=c), True)
 
-output = LatexExporter(config=c).from_filename("final.ipynb")
+output = LatexExporter(config=c).from_filename("temp.ipynb")
 
 print(output)
 
-with open("final.tex", "w") as f:
+with open("temp.tex", "w") as f:
     f.write(output[0])
