@@ -16,3 +16,7 @@ Clone this template and use the directory as the working directory for Jupyter n
 ## Handling matplotlib figures
 
 Use matplotlib's ability to export figures to image files, then insert the images into your notebook within a markdown cell using markdown syntax. The alias you give the image will become its caption in the output file. Make sure to tag any cells that output your matplotlib figure with the "remove_output" or "remove_cell" tag.
+
+## Attribution for image file used
+
+GiraffeWorld, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
