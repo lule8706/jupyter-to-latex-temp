@@ -1,6 +1,6 @@
 # Template for LaTeX-bound Jupyter notebooks
 
-Clone this template and use the directory as the working directory for Jupyter notebooks which you would like to convert to LaTeX documents. This is only tested for Jupyter Lab.
+Clone this template and use the directory as the working directory for Jupyter notebooks which you would like to convert to LaTeX documents. This is only tested for Jupyter Lab and appears to result in all the figures being added at the end when converting to PDF rather than where they are in the notebook.
 
 ## Converting notebooks to LaTeX
 
@@ -11,7 +11,8 @@ Clone this template and use the directory as the working directory for Jupyter n
 5. Tag cells whose input you would like to remove from the output file with the "remove_input" tag.
 6. Tag cells whose output you would like to remove from the output file with the "remove_output" tag.
 7. See section below for details on how to handle matplotlib figures.
-8. Run ```python converter.py``` in your command line.
+8. Run ```python converter.py``` in your command line to convert your notebook to a TeX file.
+9. Run ```xelatex <output-filename>.tex``` twice to convert output the TeX file to a PDF with a table of contents.
 
 ## Handling matplotlib figures
 
