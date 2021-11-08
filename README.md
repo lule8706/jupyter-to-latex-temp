@@ -16,7 +16,7 @@ git clone https://github.com/lule8706/jupyter-to-latex-temp.git
 
 ```
 cd path/to/copy
-cd rm -rf .git
+rm -rf .git
 ```
 5. Set up your own version control if you want.
 
